@@ -1,0 +1,66 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bill Generation of Cri</title>
+	<link rel="stylesheet" type="text/css" href="bill.css">
+</head>
+<body bgcolor="lightseagreen">
+<div class="pricelist">
+   <h1>Restaurant Bill Generator</h1>
+    <table>
+      <tr>
+      	<th>Image</th>
+      	<th>Name</th>
+      	<th>Price</th>
+        </tr>
+        <tr>
+        	<td><img src="C:\Users\91939\Downloads\mandi.jpeg" alt="Cricket" width="100" height="100"></td>
+        	<td>Mandi</td>
+        	<td>Rs.1200</td>
+
+        </tr>
+        <tr><td><img src="C:\Users\91939\Downloads\red bucket.jpeg" alt="Badminton" width="100" height="100"></td>
+        	<td>Red Bucket Biriyani</td>
+        	<td>Rs.1000</td></tr>
+        	<tr>
+        	<td><img src="C:\Users\91939\Downloads\hyderabadi.jpeg" alt="FootBall" width="100" height="100"></td>
+        	<td>Hyderabadi Biriyani</td>
+        	<td>Rs.800</td>
+        	</tr>
+        	<tr>
+        		<td><img src="C:\Users\91939\Downloads\chicken fried rice.jpeg" alt="BasketBall" width="100" height="100"></td>
+        	<td>Chicken Fried Rice</td>
+        	<td>Rs.500</td>
+       	</tr>
+       	<tr>
+       		<td><img src="C:\Users\91939\Downloads\veg fried rice.jpeg" alt="Chess" width="100" height="100"></td>
+        	<td>veg Fried Rice</td>
+        	<td>Rs.350</td>
+       	</tr>
+
+    </table>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <form class="bill1">
+    <select id="sf">
+  <option selected value = "cricket">Mandi</option>
+  <option value = "badminton">Red Bucket Biriyani</option>
+  <option value = "football">Hyderabadi Biriyani</option>
+  <option value = "basketball">Chicken Fried Rice</option>
+  <option value = "chess">Veg Fried Rice</option>
+</select>
+    <input type="text" id="entrybox" pattern="\d*" placeholder="Input Number of Kits">&nbsp;<b>Quantity</b>&nbsp;&nbsp;
+    <input type="button" value="ADD T0 CART" class="mybutton" id="getme">
+  </form>
+  <br><br>
+  <textarea class="bill" cols="100" rows="8" id="writeme"></textarea>
+ <br><br>
+  <input type="submit" value="CLEAR TEXTAREA" class="mybutton bill3" id="clr">
+  <input type="submit" value="PAY BILL" class="mybutton bill2" id="out">
+  <script type="text/javascript" src="bill1.js"></script>
+</body>
+</html>

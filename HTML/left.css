@@ -1,0 +1,23 @@
+h1 {
+    color: blue;
+    text-align: center;
+   }
+   a{
+    line-height: 3;
+    text-decoration: underline;
+    text-align: center;
+   }
+   a:link,a:focus,a:visited
+   {
+    background-color: palegoldenrod;
+   }
+   a:hover{
+    background-color: orange;
+   }
+   body{
+  background-color: bisque;
+   text-align : left;
+   font-family: "serif";
+   background-image: url("C:\Users\91939\Downloads\leftimage.jpeg");
+   }
+  

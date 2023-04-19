@@ -1,0 +1,31 @@
+
+body{
+    background-image: url("bgimage.jpeg"); 
+    text-align:center;
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    }
+    table{
+    padding-left: 50px;
+    }
+    h1{
+    color: blue;
+    }
+    td{
+    color: black;
+    font-size:15px;
+    
+    }
+    input{
+    background-color: black;
+    color: white;
+    }
+    .btn{
+    background-color: #704A9A;
+    border-radius: 8px;
+    border-width: 2px;
+    padding:  10px;
+    font-size: 15px;
+    border-color: red;
+    } 
+    

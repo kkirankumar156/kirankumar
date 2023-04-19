@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Form</title>
+<style>
+    body{
+    background-color: lightpink;
+    text-align:center;
+    background-size: 2000px 1000px;
+    }
+    table{
+    padding-left: 50px;
+    }
+    h1{
+    color: blue;
+    }
+    td{
+    color: black;
+    font-size:15px;
+    
+    }
+    input{
+    background-color: black;
+    color: white;
+    }
+    .btn{
+    background-color: #704A9A;
+    border-radius: 8px;
+    border-width: 2px;
+    padding:  10px;
+    font-size: 15px;
+    border-color: red;
+    } 
+    </style>
+</head>
+
+    <body>
+<h1>Registration Form</h1>
+<form name="f1" action = "/.html" method = "post/get" class="f1">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" name = "nm" placeholder = "enter your name" max = 5 maxlength = 20 required = "required">
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" name = "eid" placeholder = "enter your mail">
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="pwd"></td>
+        </tr>
+        <tr>
+            <td>DOB</td>
+            <td><input type="date" name="dob"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="gen">M</td>
+            <td><input type="radio" name="gen">F</td>
+        </tr>
+        <tr>
+            <td>religion</td>
+            <td>
+                <select name="db" id=" ">
+                    <option value="h">hindu</option>
+                    <option value="m">muslim</option>
+                    <option value="c">christian</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>languages</td>
+            <td>
+                <input type="checkbox">telugu
+                <input type="checkbox">english
+                <input type="checkbox">hindi
+            </td>
+        </tr>
+        <tr>
+            <td>address</td>
+            <td><textarea name=" " id=" " cols="20" rows="10"></textarea> </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" name="submit" class= "btn">
+            </td>
+            <td>
+                <input type="reset" name="reset" class= "btn">
+            </td>
+        </tr>
+    </table>
+   
+</form>
+</body>
+</html>
